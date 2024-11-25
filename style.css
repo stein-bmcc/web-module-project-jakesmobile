@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+    
+/* NAVIGATION STYLING */
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+body{
+    background-color: #8ACE00;
+    color: black;
+
+    max-width: 700px;
+    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1, h2{
+    font-family: "Rubik Iso", system-ui;;
+}
+img, video{
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    /* Removes the default margin on fig */
+    margin: 0;
+}
